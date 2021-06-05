@@ -1,0 +1,99 @@
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgba(45, 57, 76, 0.839);
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+/* Flex center space-between */
+.flex_csb {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+/* Flex start space-between */
+
+.flex_ssb {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+/* --------------------------Menu-------------------------- */
+.head_menu {
+    height: 87px;
+}
+.ld_menu a{
+    color: rgba(45, 57, 76, 0.839);
+}
+.ld_menu {
+    min-width: 35%;
+}
+
+/* --------------------------Track Next-------------------------- */
+.ld_track_next {
+    background: #65aad9;
+}
+.ld_track_next {
+    height: auto;
+}
+.ld_tn_form {
+    color: #ffffff;
+}
+
+.ld_tn_input {
+    font-size: 18px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: #ffffff;
+    outline: #ffffff;
+    background: #ffffff;
+    height: 52px;
+}
+.ld_tn_button {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 5px;
+    border: #77c344;
+    outline: #77c344;
+    background: #77c344;
+    width: 113px;
+    height: 54px;
+}
+    
