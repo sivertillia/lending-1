@@ -53,6 +53,28 @@ a {
     -ms-flex-align: start;
     align-items: flex-start;
 }
+/* Flex center space-around */
+
+.flex_csa {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
 /* --------------------------Menu-------------------------- */
 .head_menu {
@@ -123,4 +145,14 @@ a {
 
 .ld_tn_img {
     margin: 90px 0 -4px 0;
+}
+
+/* Partners */
+.ld_partners {
+    background: #dddddd;
+    height: 120px;
+}
+
+.ld_partners > div{
+    height: 100%;
 }
