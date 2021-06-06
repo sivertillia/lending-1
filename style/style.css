@@ -7,8 +7,11 @@ a {
     text-decoration: none;
 }
 .wrapper {
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto;
+}
+.wrapper_2 {
+
 }
 /* Flex center space-between */
 .flex_csb {
@@ -156,3 +159,38 @@ a {
 .ld_partners > div{
     height: 100%;
 }
+
+/* WHY TANK APP */
+.why_tank_app > h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin: 120px 0 100px 0;
+}
+
+.why_tank_app > div {
+    margin-bottom: 120px;
+}
+
+.wta_box {
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+.wta_block {
+    margin-top: 20px;
+}
+
+.wta_block_title {
+    display: flex;
+    align-items: center;
+}
+
+.wta_block_title > h3 {
+    font-size: 22px;
+    margin: 0 0 0 20px;
+}
+
+
+
+/* --------------------------Footer-------------------------- */
