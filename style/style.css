@@ -10,9 +10,6 @@ a {
     max-width: 80%;
     margin: 0 auto;
 }
-.wrapper_2 {
-
-}
 /* Flex center space-between */
 .flex_csb {
     display: -ms-flexbox;
@@ -194,3 +191,23 @@ a {
 
 
 /* --------------------------Footer-------------------------- */
+footer {
+    background: #dddddd;
+}
+.footer_menu {
+    height: 87px;
+}
+
+.ld_menu_footer {
+    min-width: 45%;
+}
+
+.ld_menu > .fa-twitter {
+    color: #1DA1F2;
+}
+.ld_menu > .fa-facebook {
+    color:  #3b5998;
+}
+.ld_menu > .fa-google-plus {
+    color: #db4a39;
+}
