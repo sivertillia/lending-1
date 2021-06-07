@@ -76,6 +76,26 @@ a {
     align-items: center;
 }
 
+.flex_cc {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 /* --------------------------Menu-------------------------- */
 .head_menu {
     height: 87px;
@@ -188,11 +208,94 @@ a {
     margin: 0 0 0 20px;
 }
 
+/* WHY TANK APP DIFFRENT */
+.why_tank_app_diffrent {
+    background-color: rgb(242 242 242);
+}
+
+.why_tank_app_diffrent > h1{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 100px 0;
+    padding: 120px 0 0 0;
+}
+.wtad_box {
+    margin-left: 10%;
+    margin-right: 15%;
+    width: 40%;
+    /*  */
+}
+.wtad_img {
+    /* width: 70%; */
+}
+.wtad_block > p {
+    line-height: 1.8
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+.wtad_btns {
+    display: flex;
+    justify-content: flex-end
+}
 
 
+.wtad_btns a.active {
+    background: #64a4d7;
+    color: #ffffff;
+}
+.wtad_btns a {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    color: rgba(45, 57, 76, 0.839);
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;    
+}
+
+/* SAVE TIME & GAIN AGILITY */
+.save_time > h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin: 120px 0 100px 0;
+}
+.save_time > h2 {
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+}
+.save_time form {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.save_time form .ld_tn_input {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+.save_time .ld_tn_input > input {
+    border: none;
+    outline: none;
+}
+.save_time form {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.save_time form .fa-envelope-o {
+    font-size: 22px;
+    padding: 0 15px 0 0;
+}
+
+  
 /* --------------------------Footer-------------------------- */
 footer {
-    background: #dddddd;
+    background: #f9f9f9;
+    border-top: 1px #e8e8e8 solid;
 }
 .footer_menu {
     height: 87px;
